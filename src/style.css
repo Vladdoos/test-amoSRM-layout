@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
+body{
+    margin: 0;
+    background: #0E1014 url("../static/img/background-desktop.jpg") 0 0/100% no-repeat;
+    padding: 57px 149px 0 150px;
+}
+a{
+    cursor: pointer;
+    height: 20px;
+}
+button{
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    border: 1px solid #4077F3;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E4E5EA;
+    cursor: pointer;
+}
+button:hover{
+    background: #E4E5EA;
+    border: 1px solid #4077F3;
+    color: #4077F3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.network,
+.block-body,
+.block-header{
+    display: flex;
+}
+
+.block-header{
+    justify-content: space-between;
+    margin-bottom: 83px;
+}
+.block-logo{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+.text-logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+}
+.img-logo{
+    background: url("../static/img/logo_welbex.png") 0 0/100% no-repeat;
+    height: 24px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    Justify-content:space-between;
+    margin: 0 137px 0 52px;
+    width: 503px;
+}
+li{
+    list-style-type:none;
+}
+.navigation li{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+}
+.phone:hover,
+.footer-inf a:hover,
+.navigation a:hover{
+    color: #FCB045;
+}
+.telegram{
+    background: url("../static/img/telegram.png") 0 0/100% no-repeat;
+    height: 20px;
+}
+.whatsapp{
+    background: url("../static/img/viber.png") 0 0/100% no-repeat;
+    height: 20px;
+}
+.whatsapp-header{
+    margin: 0 30px;
+}
+
+
+.viber{
+    background: url("../static/img/whatsapp.png") 0 0/100% no-repeat;
+    height: 20px;
+}
+.block-header .phone{
+    margin-right: 47px;
+}
+.phone{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.network{
+    display: flex;
+}
+.network-header{
+    Justify-content:space-between;
+}
+.network li{
+    width: 20px;
+}
+.block-body{
+    Justify-content: space-between;
+}
+.body-title{
+    display: flex;
+    flex-direction: column;
+    Justify-content: flex-start;
+}
+.body-title h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+    width: 362px;
+    margin-bottom: 30px;
+}
+.body-title p,
+.body-title h1{
+    margin-top: 0;
+}
+.body-title span{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.body-title p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+    width: 275px;
+}
+.body-description{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 329px;
+}
+.body-description h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #E4E5EA;
+    margin: 15px 0 40px;
+    width: 100%;
+}
+.body-description span{
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.span-free{
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 71%);
+}
+.span-cons{
+    background: linear-gradient(90deg, #FCB045 73.99%, #c0441d 100%)
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.block-description-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+    margin: 0 0 6px 0;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+    margin: 0;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.block-footer{
+    display: flex;
+    margin-top: 69px;
+    padding-top: 55px;
+}
+
+.footer-inf{
+    display: flex;
+    flex-direction: column;
+}
+.footer-inf h3{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+    margin: 0 0 20px 0;
+}
+.footer-inf li{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    margin-bottom: 10px;
+}
+
+.footer-inf__ul{
+    margin-top: 37px;
+}
+.footer-inf-company{
+    margin-right: 98px;
+}
+.footer-inf-menu{
+    margin-right: 52px;
+}
+.footer-inf-contact{
+    margin-left: auto;
+    text-align: right;
+}
+
+.whatsapp-footer{
+    margin: 0 10px;
+}
+
+.network-footer{
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.footer-inf p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 61px;
+}
+
+.footer-inf-contact .li-phone {
+    margin-bottom: 21px;
+}
+.footer-inf-other__maxWidth,
+.text-maxWidth{
+    display: none;
+}
+@media screen and (max-width: 650px) {
+    .container{
+        max-width: 100%;
+    }
+    body{
+        background: #0E1014;
+        padding: 0;
+    }
+    .block-header .phone,
+    .network-header,
+    .navigation-text,
+    .btn,
+    .footer-inf-other__minWidth,
+    .text-minWidth,
+    .text p,
+    .block-logo{
+        display: none;
+    }
+    .block-header{
+        height: 55px;
+        align-items: center;
+        margin-bottom: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background: #0E1014;
+        z-index: 99;
+    }
+    .navigation{
+        margin: 0 16px;
+        width: 100%;
+    }
+    .navigation li{
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .block-body{
+        background: #0E1014 url("../static/img/background-mobile.png") 0 0/100% no-repeat;
+        padding: 40px 0 0;
+        margin-top: 56px;
+    }
+    .body-title h1 {
+        font-size: 36px;
+        line-height: 44px;
+        width: auto;
+        margin: 0 0 15px 14px;
+    }
+    .body-title p {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 0 45px 14px;
+        width: auto;
+    }
+    .body-description {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: auto;
+        margin: 0 0 45px 15px;
+    }
+    .block-footer,
+    .block-body{
+        flex-direction: column;
+    }
+    .body-description h2 {
+        text-align: left;
+        color: #E4E5EA;
+        margin: 0 0 20px 0;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .text h3{
+        text-align: left;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 400;
+    }
+    .text-margin-right {
+        margin-left: 25px;
+    }
+    .text-margin-left{
+        margin-left: 15px;
+    }
+    .text {
+        width: 99px;
+        margin-bottom: 9px;
+    }
+    .text-maxWidth{
+        display: block;
+        white-space: nowrap;
+        position: relative;
+    }
+    .text-maxWidth:before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 1px;
+        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 71%);
+        top: 8px;
+        right: 103px;
+    }
+    .block-footer {
+        margin-top: 39px;
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-inf-company{
+        margin: 0;
+    }
+    .footer-inf h3{
+        margin-left: 16px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .footer-inf li{
+        margin-left: 15px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-inf-other,
+    .footer-inf-menu {
+        margin: 0;
+        width: 41%;
+    }
+    .footer-inf-menu{
+        margin-right: 18px;
+        margin-top: 19px;
+    }
+    .footer-inf-contact {
+        margin: 17px 0 15px 0;
+        text-align: left;
+        width: 100%;
+    }
+    .footer-inf-other__maxWidth{
+        display: block;
+    }
+    .footer-inf-contact .li-phone {
+        margin-bottom: 12px;
+    }
+    .network-footer {
+        justify-content: left;
+        margin-bottom: 12px;
+    }
+    .network-footer li{
+        height: 22px;
+        width: 22px;
+    }
+    .footer-inf__ul {
+        margin-top: 56px;
+    }
+    .footer-inf .viber {
+        margin-left: 0;
+    }
+    .footer-inf p {
+        text-align: left;
+        margin-top: 42px;
+        margin-left: 15px;
+    }
+
+}
+@media (min-width: 650px) and (max-width: 1200px) {
+    .block-header .phone,
+    .network-header,
+    .btn,
+    .footer-inf-other__minWidth,
+    .text-maxWidth{
+        display: none;
+    }
+    body{
+        padding: 30px 30px 0 30px;
+    }
+    .navigation {
+        margin: 0 0 0 40px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .text-margin-right {
+        margin-left: 25px;
+    }
+    .text-margin-left{
+        margin-left: 15px;
+    }
+    .text {
+        width: 43%;
+        margin-bottom: 14px;
+    }
+    .body-description {
+        justify-content: flex-start;
+    }
+}
